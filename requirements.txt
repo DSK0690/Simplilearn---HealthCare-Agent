@@ -1,0 +1,14 @@
+streamlit>=1.50
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+python-dotenv>=1.0
+faiss-cpu>=1.7.4
+
+# LangChain agent framework (v1.x)
+langchain>=1.0
+langchain-core>=1.0
+langchain-community>=0.4
+langchain-classic>=1.0        # provides QAEvalChain
+langchain-openai>=1.0         # only needed if you use OpenAI
+langchain-anthropic>=1.0      # only needed if you use Anthropic
